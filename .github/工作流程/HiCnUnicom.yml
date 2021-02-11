@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 20 06,17 * * ?
+      
 jobs:
   run-it:
     runs-on: ubuntu-latest
