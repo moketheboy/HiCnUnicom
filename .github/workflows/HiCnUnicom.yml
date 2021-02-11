@@ -3,8 +3,7 @@ name: 联通掌厅签到
 on:
   workflow_dispatch:
   schedule:
-    - cron：10 04,18 * * ?
-     
+    - cron: 20 06,17 * * ?
 jobs:
   run-it:
     runs-on: ubuntu-latest
